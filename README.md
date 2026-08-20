@@ -18,6 +18,7 @@ Copy a skill folder from the sibling repo into `~/.cursor/skills/` or `~/.claude
 | plant-gene-annotation | https://github.com/Xuzhen-Li/plant-gene-annotation | BRAKER3 / GALBA / GeMoMa |
 | plant-lit-review | https://github.com/Xuzhen-Li/plant-lit-review | Plant-genomics literature sweep |
 | bioinfo-pitfalls | https://github.com/Xuzhen-Li/bioinfo-pitfalls | HWE, VCF, aDNA, Slurm traps |
+| genomics-theory-mining | https://github.com/Xuzhen-Li/genomics-theory-mining | Mine a classic genomics theory; test it |
 | grapeancestry | https://github.com/Xuzhen-Li/grapeancestry | 167K capture calling and ancestry |
 
 This repository is not the playbook dump. Install from the sibling repo.
