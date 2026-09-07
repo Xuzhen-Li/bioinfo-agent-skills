@@ -1,44 +1,45 @@
 # bioinfo-agent-skills
 
-This repo is an index only. Each skill lives in its own sibling repository.
+Public **index** for plant-genomics / everyday-bioinformatics agent skills under [Xuzhen-Li](https://github.com/Xuzhen-Li).
+
+This repo is not a playbook dump. Install from the sibling repo named in the table. Do not copy skill folders out of this index.
 
 ## This is not
 
-This is not a playbook dump and not a place to copy skills from.
-Install from the sibling repo. Do not copy skill folders out of this index.
-This is not [grapeancestry](https://github.com/Xuzhen-Li/grapeancestry) and not [genomics-theory-mining](https://github.com/Xuzhen-Li/genomics-theory-mining).
+- Not [grapeancestry](https://github.com/Xuzhen-Li/grapeancestry) (167K analysis product; chip design lives under `chip/`)
+- Not [genomics-theory-mining](https://github.com/Xuzhen-Li/genomics-theory-mining) (one classic theory per folder)
+- Not the Writing skill shells ([famous-people](https://github.com/Xuzhen-Li/famous-people), [concept-learning](https://github.com/Xuzhen-Li/concept-learning), [paper-reading](https://github.com/Xuzhen-Li/paper-reading)) — those stay standalone
 
 ## Sibling repos
 
 | Repo | Job |
 |------|-----|
-| [grapeancestry](https://github.com/Xuzhen-Li/grapeancestry) | 167K capture FASTQ to panel VCF to ancestry / identity / PCA |
-| [grapevine-chip](https://github.com/Xuzhen-Li/grapevine-chip) | Probe / SNP selection and design files for 167K and follow-ons |
+| [grapeancestry](https://github.com/Xuzhen-Li/grapeancestry) | 167K capture: FASTQ → panel VCF → ancestry / identity / PCA; **chip design** in [`chip/`](https://github.com/Xuzhen-Li/grapeancestry/tree/main/chip) |
+| [grapevine-chip](https://github.com/Xuzhen-Li/grapevine-chip) | **Redirect only** → `grapeancestry/chip` (old links) |
 | [grapevine-adna](https://github.com/Xuzhen-Li/grapevine-adna) | Damage, authentication, aDNA capture, projection |
 | [grapevine-plastid](https://github.com/Xuzhen-Li/grapevine-plastid) | Chloroplast assembly / pangenome / phylogeny |
 | [vitis-pangenome](https://github.com/Xuzhen-Li/vitis-pangenome) | Graphs, PAV, mixed-variant / dosage |
 | [vitis-popgen](https://github.com/Xuzhen-Li/vitis-popgen) | Structure, gene flow, domestication on public data |
-| [vitis-te](https://github.com/Xuzhen-Li/vitis-te) | EDTA to curated TE libraries |
+| [vitis-te](https://github.com/Xuzhen-Li/vitis-te) | EDTA → curated TE libraries |
 | [vitis-synteny](https://github.com/Xuzhen-Li/vitis-synteny) | GENESPACE / SyRI / collinearity |
 | [plant-gene-annotation](https://github.com/Xuzhen-Li/plant-gene-annotation) | BRAKER3 / GALBA / GeMoMa for new plant assemblies |
 | [plant-lit-review](https://github.com/Xuzhen-Li/plant-lit-review) | Literature sweep workflow |
 | [bioinfo-pitfalls](https://github.com/Xuzhen-Li/bioinfo-pitfalls) | Symptom-first traps (HWE, VCF, aDNA, Slurm) |
 | [plant-omics-db](https://github.com/Xuzhen-Li/plant-omics-db) | Journal-ready plant multi-omics DB playbook |
-| [paper-viz](https://github.com/Xuzhen-Li/paper-viz) | Source-aligned draw.io redraws; skill name `drawio-source-redraw` |
-| [genomics-theory-mining](https://github.com/Xuzhen-Li/genomics-theory-mining) | One classic paper, one folder; test it on modern data |
+| [paper-viz](https://github.com/Xuzhen-Li/paper-viz) | Source-aligned draw.io redraws (`drawio-source-redraw`) |
+| [genomics-theory-mining](https://github.com/Xuzhen-Li/genomics-theory-mining) | One classic paper, one folder; test on modern data |
 
-## What will land later
+## `skills/` in this repo
 
-Index rows and one-line jobs only. Skill files stay in the sibling repos.
+Transitional stubs and drafts live under [`skills/`](skills/) so Cursor can discover them while sibling shells fill out. **Canonical install path is still the sibling repo** once that repo has a real `SKILL.md`. Prefer the sibling when both exist.
+
+Chip design: use [grapeancestry/chip](https://github.com/Xuzhen-Li/grapeancestry/tree/main/chip), not a separate grain.
 
 ## See also
 
-- [grapeancestry](https://github.com/Xuzhen-Li/grapeancestry) — 167K analysis product
-- [genomics-theory-mining](https://github.com/Xuzhen-Li/genomics-theory-mining) — one paper, one folder
-- [paper-viz](https://github.com/Xuzhen-Li/paper-viz) — `drawio-source-redraw`
-- [plant-omics-db](https://github.com/Xuzhen-Li/plant-omics-db) — DB playbook, not VitisGDB
-
-Install from the sibling repo. Do not copy skills out of this index.
+- [grapeancestry](https://github.com/Xuzhen-Li/grapeancestry) — 167K analysis + chip folder
+- [genomics-theory-mining](https://github.com/Xuzhen-Li/genomics-theory-mining) — scholarship grain
+- Homepage: [Xuzhen-Li/Xuzhen-Li](https://github.com/Xuzhen-Li/Xuzhen-Li)
 
 MIT. Unpublished genotypes and private coordinates do not belong here.
 
